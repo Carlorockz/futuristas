@@ -14,14 +14,16 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <style>
-        html{
+        html {
             scroll-behavior: smooth;
         }
-        body{
+
+        body {
             margin: 0;
             padding: 0;
             background-color: #E2FFDF;
         }
+
         h1,
         h2,
         h3,
@@ -32,9 +34,11 @@
         a {
             font-family: 'Montserrat', sans-serif;
         }
-        img{
+
+        img {
             width: 100%;
         }
+
         h5 {
             font-size: 1.1rem;
         }
@@ -98,9 +102,11 @@
         .panel_bajada h6 {
             line-height: 1rem;
         }
-        .charla_titulo{
+
+        .charla_titulo {
             font-weight: 700;
         }
+
         .programa {
             /* The image used */
             background-image: url("assets/img/bg_programa.jpg");
@@ -140,8 +146,15 @@
             .panel_bajada {
                 margin-left: 10rem;
             }
-            .programa{
+
+        }
+
+        @media (max-width: 800px) {
+            .programa {
                 background-image: url("assets/img/bg_programa_mobile.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
         }
     </style>
